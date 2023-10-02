@@ -14,7 +14,7 @@ Original file is located at
 # import numpy as np
 
 import pulp
-lp = pulp.LpProblem("Diet_Problem_Revisted", pulp.LpMinimize)
+lp = pulp.LpProblem("Diet_Problem_Revisted_additional_constraints", pulp.LpMinimize)
 
 #5 food items defined as variables, requirement to be positive, lowBound= 0
 
@@ -52,7 +52,7 @@ for var in lp.variables():
   print("OPT =", round(pulp.value(lp.objective), 2))
 
 # Create and open a text file for writing
-output_file_path = "diet_problem_output.txt"
+output_file_path = "diet_problem_additional_constraints_output.txt"
 with open(output_file_path, "w") as output_file:
 
     # Write the variable values to the file
