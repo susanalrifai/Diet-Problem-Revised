@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1hOwjQoCi0LzNatmePmuFrX1HPeJGUlOp
 """
 
-!pip install pulp
+#!pip install pulp
 
 #diet problem
 # import pandas as pd
