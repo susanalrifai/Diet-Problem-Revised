@@ -1,0 +1,6 @@
+Nonfat_Greek_Yogurt = 4.21
+Peanut_Butter = 3.2
+Spinach = 3.28
+Tri_colored_Quinoa = 4.11
+Wild_Caught_Alaskan_Salmon = 1.27
+OPT = 11.7
